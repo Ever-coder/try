@@ -1,0 +1,17 @@
+.boxm{
+
+	background-color: #DBCAE9;
+	border-radius: 10px;
+}
+.boxm:hover {
+
+	filter: grayscale(40%);
+}
+.parra{
+
+	text-align: justify;
+	margin: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+

@@ -1,0 +1,28 @@
+.containerS {
+  position: relative;
+  max-width: 700px; /* Maximum width */
+  box-shadow: 0 6px 8px 4px #838BD4;
+  margin-top: 15px;
+}
+
+.containerS img {
+  max-height: 300px;
+}
+
+.containerS img:hover{
+  filter: grayscale(40%);
+}
+
+.contentS {
+  margin: 15px;
+}
+
+.containerS .contentS {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
